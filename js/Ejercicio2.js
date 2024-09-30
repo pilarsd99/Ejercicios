@@ -23,4 +23,9 @@ console.log(mascotas.length);
 for(let i = 0; i< mascotas.length; i++){
     console.log(mascotas[i]);
 }
-//hola
+//prueba de otro tipo de for
+console.log('prueba de for')
+for(const mascota of mascotas){
+    console.log(mascota);
+}
+//

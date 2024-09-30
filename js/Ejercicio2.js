@@ -40,7 +40,7 @@ function valormayor(x,y){
     for (let i = 0; i < x.length; i++) {
         for (let j = 0; j < x.length; j++) {
             if(x[i]> x[j]){
-    
+                
             }
         }
     }

@@ -12,5 +12,9 @@ console.log(mascotas[5]);
 mascotas[5] = 'Michi nuevo';
 console.log(mascotas[5]);
 // agregar elemento
-mascotas.push('Almendro',);
+mascotas.push('Almendro');
 console.log(mascotas);
+const ultimoMichi = mascotas.pop();
+console.log(mascotas);
+console.log(ultimoMichi);
+console.log(mascotas.length);

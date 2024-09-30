@@ -1,4 +1,4 @@
-const mascotas = [
+/*const mascotas = [
 'muzarella',
 'olivia',
 'asteroid',
@@ -34,4 +34,21 @@ let i = 0;
 while(i < mascotas.length){
     console.log(mascotas[i]);
     i++;
+}*/
+function valormayor(x,y){
+    let mayores = [];
+    for (let i = 0; i < x.length; i++) {
+        for (let j = 0; j < x.length; j++) {
+            if(x[i]> x[j]){
+    
+            }
+        }
+    }
+    return mayores
+}
+let arrayRecb= [1,2,3,4], valorpedido = 2;
+if(valorpedido<= arrayRecb.length && valorpedido!=0){
+    console.log( valormayor(arrayRecb,valorpedido));
+}else{
+    console.log('No me sirve');
 }

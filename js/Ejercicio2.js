@@ -28,4 +28,10 @@ console.log('prueba de for')
 for(const mascota of mascotas){
     console.log(mascota);
 }
-//
+//while
+console.log('WHILE');
+let i = 0;
+while(i < mascotas.length){
+    console.log(mascotas[i]);
+    i++;
+}

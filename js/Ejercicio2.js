@@ -14,7 +14,12 @@ console.log(mascotas[5]);
 // agregar elemento
 mascotas.push('Almendro');
 console.log(mascotas);
+//Sacar la ultima mascota 
 const ultimoMichi = mascotas.pop();
 console.log(mascotas);
 console.log(ultimoMichi);
+//loopear un array
 console.log(mascotas.length);
+for(let i = 0; i< mascotas.length; i++){
+    console.log(mascotas[i]);
+}

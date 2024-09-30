@@ -23,3 +23,4 @@ console.log(mascotas.length);
 for(let i = 0; i< mascotas.length; i++){
     console.log(mascotas[i]);
 }
+//hola

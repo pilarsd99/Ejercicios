@@ -32,3 +32,6 @@ console.log(Persona.saludar());
 console.log(Persona2.saludar());
 const Tita = crearPersona('Tita', 30);
 console.log(Tita);
+
+const Maria = crearPersona('Maria',22);
+console.log(Maria.saludar());

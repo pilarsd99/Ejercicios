@@ -37,16 +37,13 @@ while(i < mascotas.length){
 }*/
 function valormayor(x,y){
     let mayores = [];
-    for (let i = 0; i < x.length; i++) {
-        for (let j = 0; j < x.length; j++) {
-            if(x[i]> x[j]){
-                //
-            }
-        }
+    x = x.sort((a,b)=>b-a);
+    for (let i = 0; i < y; i++) {
+        mayores[i] = x[i];   
     }
     return mayores
 }
-let arrayRecb= [1,2,3,4], valorpedido = 2;
+let arrayRecb= [1,1,-1], valorpedido = 0;
 if(valorpedido<= arrayRecb.length && valorpedido!=0){
     console.log( valormayor(arrayRecb,valorpedido));
 }else{
